@@ -13,6 +13,9 @@
 		392271F222BC46F200799BE3 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392271F122BC46F200799BE3 /* Internet.swift */; };
 		392271F422BC4A4000799BE3 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392271F322BC4A4000799BE3 /* Mobile.swift */; };
 		392271F622BC4E9700799BE3 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392271F522BC4E9700799BE3 /* Hydro.swift */; };
+		392271F922BC4FF300799BE3 /* extension_float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392271F822BC4FF300799BE3 /* extension_float.swift */; };
+		392271FB22BC508100799BE3 /* extension_int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392271FA22BC508100799BE3 /* extension_int.swift */; };
+		392271FD22BC50AA00799BE3 /* extension_Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392271FC22BC50AA00799BE3 /* extension_Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +38,9 @@
 		392271F122BC46F200799BE3 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 		392271F322BC4A4000799BE3 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		392271F522BC4E9700799BE3 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
+		392271F822BC4FF300799BE3 /* extension_float.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_float.swift; sourceTree = "<group>"; };
+		392271FA22BC508100799BE3 /* extension_int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_int.swift; sourceTree = "<group>"; };
+		392271FC22BC50AA00799BE3 /* extension_Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,14 +73,25 @@
 		392271E522BC3ABF00799BE3 /* C0751731_MID_TERM_MAD3004 */ = {
 			isa = PBXGroup;
 			children = (
+				392271F722BC4F9B00799BE3 /* Support */,
 				392271E622BC3ABF00799BE3 /* main.swift */,
 				392271ED22BC41EF00799BE3 /* Bill.swift */,
-				392271EF22BC45DB00799BE3 /* IDisplay.swift */,
 				392271F122BC46F200799BE3 /* Internet.swift */,
 				392271F322BC4A4000799BE3 /* Mobile.swift */,
 				392271F522BC4E9700799BE3 /* Hydro.swift */,
 			);
 			path = C0751731_MID_TERM_MAD3004;
+			sourceTree = "<group>";
+		};
+		392271F722BC4F9B00799BE3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				392271EF22BC45DB00799BE3 /* IDisplay.swift */,
+				392271F822BC4FF300799BE3 /* extension_float.swift */,
+				392271FA22BC508100799BE3 /* extension_int.swift */,
+				392271FC22BC50AA00799BE3 /* extension_Date.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,10 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392271FD22BC50AA00799BE3 /* extension_Date.swift in Sources */,
 				392271F422BC4A4000799BE3 /* Mobile.swift in Sources */,
 				392271EE22BC41EF00799BE3 /* Bill.swift in Sources */,
 				392271E722BC3ABF00799BE3 /* main.swift in Sources */,
+				392271F922BC4FF300799BE3 /* extension_float.swift in Sources */,
 				392271F222BC46F200799BE3 /* Internet.swift in Sources */,
+				392271FB22BC508100799BE3 /* extension_int.swift in Sources */,
 				392271F622BC4E9700799BE3 /* Hydro.swift in Sources */,
 				392271F022BC45DB00799BE3 /* IDisplay.swift in Sources */,
 			);
