@@ -15,13 +15,9 @@ class Internet : Bill
 
     init(bId : Int,bDate : Date,bType : String, bTotalAmount : Double, providerName : String, internetUsage : Float)
     {
-        self.providerName = providerName
-        self.internetUsage = internetUsage
+        self.providerName = ""
+        self.internetUsage = 0
         super.init(bId: bId, bDate: bDate, bType: bType, bTotalAmount: bTotalAmount)
     }
     
-    override func printBill()
-    {
-            print(self.bId!, self.bDate!, self.bType!, self.bTotalAmount!, self.providerName!, self.internetUsage!)
-    }
 }
