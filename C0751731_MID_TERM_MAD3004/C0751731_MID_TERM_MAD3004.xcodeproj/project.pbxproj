@@ -10,6 +10,7 @@
 		392271E722BC3ABF00799BE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392271E622BC3ABF00799BE3 /* main.swift */; };
 		392271EE22BC41EF00799BE3 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392271ED22BC41EF00799BE3 /* Bill.swift */; };
 		392271F022BC45DB00799BE3 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392271EF22BC45DB00799BE3 /* IDisplay.swift */; };
+		392271F222BC46F200799BE3 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392271F122BC46F200799BE3 /* Internet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		392271E622BC3ABF00799BE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		392271ED22BC41EF00799BE3 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		392271EF22BC45DB00799BE3 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		392271F122BC46F200799BE3 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				392271E622BC3ABF00799BE3 /* main.swift */,
 				392271ED22BC41EF00799BE3 /* Bill.swift */,
 				392271EF22BC45DB00799BE3 /* IDisplay.swift */,
+				392271F122BC46F200799BE3 /* Internet.swift */,
 			);
 			path = C0751731_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			files = (
 				392271EE22BC41EF00799BE3 /* Bill.swift in Sources */,
 				392271E722BC3ABF00799BE3 /* main.swift in Sources */,
+				392271F222BC46F200799BE3 /* Internet.swift in Sources */,
 				392271F022BC45DB00799BE3 /* IDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

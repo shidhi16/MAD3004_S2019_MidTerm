@@ -8,19 +8,19 @@
 
 import Foundation
 
-class Bill
+class Bill : IDisplay
 {
     var bId : Int?
     var bDate : Date?
     var bType : String?
-    var bAmount : Double?
+    var bTotalAmount : Double?
     
-    init(bId : Int,bDate : Date,bType : String, bAmount : Double)
+    init(bId : Int,bDate : Date,bType : String, bTotalAmount : Double)
     {
         self.bId = bId
         self.bDate = bDate
         self.bType = bType
-        self.bAmount = bAmount
+        self.bTotalAmount = bTotalAmount
     }
     
     func printBill()
@@ -28,6 +28,6 @@ class Bill
         print("Bill ID : \(String(describing: bId))")
         print("Bill Date : \(String(describing: bDate))")
         print("Bill Type : \(String(describing: bType))")
-        print("Bill Amount : \(String(describing: bAmount))")
+        print("Total Bill Amount : \(String(describing: bTotalAmount))")
     }
 }
