@@ -73,7 +73,10 @@ class Customer
         
     }
     
-    static var customerDictionary = [Int : Customer]()
+    func addCustomer(customer : Customer)
+    {
+        customerDictionary.updateValue(customer, forKey: cId!)
+    }
     
-    
+    var customerDictionary = [Int : Customer]()
 }
