@@ -12,12 +12,22 @@ class Internet : Bill
 {
     var providerName : String?
     var internetUsage : Float?
+    var internetCharge : Float?
+    
 
     init(bId : Int,bDate : Date,bType : String, bTotalAmount : Float, providerName : String, internetUsage : Float)
     {
         self.providerName = ""
         self.internetUsage = 0
+        self.internetCharge = 5.5
         super.init(bId: bId, bDate: bDate, bType: bType, bTotalAmount: bTotalAmount)
+    }
+    func calcTotal() -> Float
+    {
+        var total : Float
+        total = self.internetUsage! * self.internetCharge!
+        self.bTotalAmount = total
+        return total
     }
     
 }
