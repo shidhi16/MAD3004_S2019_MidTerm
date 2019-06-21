@@ -14,7 +14,7 @@ class Hydro : Bill
     var Agency : String?
     var unitsConsumed : Float?
     
-    override init(bId: Int, bDate: Date, bType: String, bTotalAmount: Double)
+    override init(bId: Int, bDate: Date, bType: String, bTotalAmount: Float)
     {
         self.Agency = ""
         self.unitsConsumed = 0

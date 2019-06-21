@@ -13,7 +13,7 @@ class Internet : Bill
     var providerName : String?
     var internetUsage : Float?
 
-    init(bId : Int,bDate : Date,bType : String, bTotalAmount : Double, providerName : String, internetUsage : Float)
+    init(bId : Int,bDate : Date,bType : String, bTotalAmount : Float, providerName : String, internetUsage : Float)
     {
         self.providerName = ""
         self.internetUsage = 0

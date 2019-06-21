@@ -12,14 +12,14 @@ class Bill : IDisplay
 {
     var bId : Int?
     var bDate : Date?
-    var bType : String
+    var bType : BillType
     var bTotalAmount : Float?
     
     init(bId : Int,bDate : Date,bType : String, bTotalAmount : Float)
     {
         self.bId = 0
         self.bDate = bDate
-        self.bType = ""
+        self.bType = BillType.Mobile
         self.bTotalAmount = 0
     }
     

@@ -17,6 +17,7 @@
 		392271FB22BC508100799BE3 /* extension_int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392271FA22BC508100799BE3 /* extension_int.swift */; };
 		392271FD22BC50AA00799BE3 /* extension_Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392271FC22BC50AA00799BE3 /* extension_Date.swift */; };
 		392271FF22BC514300799BE3 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392271FE22BC514300799BE3 /* Customer.swift */; };
+		3922720122BC561900799BE3 /* BillType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922720022BC561900799BE3 /* BillType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		392271FA22BC508100799BE3 /* extension_int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_int.swift; sourceTree = "<group>"; };
 		392271FC22BC50AA00799BE3 /* extension_Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_Date.swift; sourceTree = "<group>"; };
 		392271FE22BC514300799BE3 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		3922720022BC561900799BE3 /* BillType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				392271F822BC4FF300799BE3 /* extension_float.swift */,
 				392271FA22BC508100799BE3 /* extension_int.swift */,
 				392271FC22BC50AA00799BE3 /* extension_Date.swift */,
+				3922720022BC561900799BE3 /* BillType.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				392271E722BC3ABF00799BE3 /* main.swift in Sources */,
 				392271F922BC4FF300799BE3 /* extension_float.swift in Sources */,
 				392271F222BC46F200799BE3 /* Internet.swift in Sources */,
+				3922720122BC561900799BE3 /* BillType.swift in Sources */,
 				392271FB22BC508100799BE3 /* extension_int.swift in Sources */,
 				392271F622BC4E9700799BE3 /* Hydro.swift in Sources */,
 				392271F022BC45DB00799BE3 /* IDisplay.swift in Sources */,
