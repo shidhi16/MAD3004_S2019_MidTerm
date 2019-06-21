@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Customer
+class Customer : IDisplay
 
 {
     var cId : Int?
