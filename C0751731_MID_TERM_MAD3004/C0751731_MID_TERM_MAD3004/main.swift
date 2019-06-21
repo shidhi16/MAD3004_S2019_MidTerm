@@ -8,5 +8,15 @@
 
 import Foundation
 
+var dateFormatter = DateFormatter()
+dateFormatter.dateFormat = "EEEE, dd MMMM, yyyy"
 
-var c1b1 = Bill = Internet(bId: 1, bDate: <#T##Date#>, bType: Internet, bTotalAmount: 256, providerName: Fido, internetUsage: 300)
+var formattedDate1 : Date = dateFormatter.date(from: "Wednesday, 19 June, 2019")!
+
+var c1b1 : Bill = Internet(bId: 1, bDate: formattedDate1, bType: BillType.Internet, bTotalAmount: 256, providerName: "Fido", internetUsage: 300)
+c1b1.calcTotal()
+
+var c1b2 : Bill = Hydro(bId: 22, bDate: formattedDate1, bType: BillType.Hydro, bTotalAmount: 78, Agency: "Power Cloud", unitsConsumed: 56)
+c1b2.calcTotal()
+
+var c1b3 : Bill = Mobile(bId: 36, bDate: formattedDate1, bType: BillType.Mobile, bTotalAmount: 456, manufacturer: "iPhone", plan: UL calls + Internet", mobileNo: "+1345675667", internetUsage: "588", minuteUsage: 78, internetCharge: 5.5, minuteCharge: 1)

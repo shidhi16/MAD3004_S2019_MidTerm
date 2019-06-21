@@ -23,5 +23,10 @@ class Bill
         self.bType = BillType.Mobile
         self.bTotalAmount = 0
     }
+    
+    func calcTotal() -> Float
+    {
+     return bTotalAmount
+    }
 
 }
