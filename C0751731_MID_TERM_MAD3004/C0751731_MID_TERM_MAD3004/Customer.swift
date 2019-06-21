@@ -46,7 +46,7 @@ class Customer
     
     var totalAmount : Float
     {
-        var total : Float
+        var total : Float = 0
         for bill in arrayBills
         {
             total = total + bill.bTotalAmount!
@@ -60,17 +60,20 @@ class Customer
         self.cFirstName = ""
         self.cLastName = ""
         self.emailId = ""
-        self.arrayBills = arrayBills
+        self.arrayBills = []
     }
     
-    init(cId : Int, cFirstName : String, cLastName: String, emailId : String, arrayBills = arrayBills)
+    init(cId : Int, cFirstName : String, cLastName: String, emailId : String, arrayBills : [Bill])
     {
         self.cId = cId
         self.cFirstName = cFirstName
         self.cLastName = cLastName
         self.emailId = emailId
         self.arrayBills = arrayBills
+        
     }
+    
+    static var customerDictionary = [Int : Customer]()
     
     
 }

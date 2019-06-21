@@ -10,6 +10,7 @@ import Foundation
 
 class Bill : IDisplay
 {
+    
     var bId : Int?
     var bDate : Date?
     var bType : BillType
@@ -22,12 +23,5 @@ class Bill : IDisplay
         self.bType = BillType.Mobile
         self.bTotalAmount = 0
     }
-    
-    func printBill()
-    {
-        print("Bill ID : \(String(describing: bId))")
-        print("Bill Date : \(String(describing: bDate))")
-        print("Bill Type : \(String(describing: bType))")
-        print("Total Bill Amount : \(String(describing: bTotalAmount))")
-    }
+
 }
