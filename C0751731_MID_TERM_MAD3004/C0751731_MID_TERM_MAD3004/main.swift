@@ -8,3 +8,5 @@
 
 import Foundation
 
+
+var c1b1 = Bill = Internet(bId: 1, bDate: <#T##Date#>, bType: Internet, bTotalAmount: 256, providerName: Fido, internetUsage: 300)

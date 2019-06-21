@@ -16,7 +16,7 @@ class Bill
     var bType : BillType
     var bTotalAmount : Float?
     
-    init(bId : Int,bDate : Date,bType : String, bTotalAmount : Float)
+    init(bId : Int,bDate : Date,bType : BillType, bTotalAmount : Float)
     {
         self.bId = 0
         self.bDate = bDate

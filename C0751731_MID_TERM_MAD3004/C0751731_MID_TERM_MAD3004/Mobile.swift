@@ -18,7 +18,7 @@ class Mobile : Bill
     var internetCharge : Float?
     var minuteCharge : Float?
     
-    init(bId: Int, bDate: Date, bType: String, bTotalAmount: Float, manufacturer : String, plan : String, mobileNo : Int, internetUsage : Internet, minuteUsage : Float, internetCharge : Float, minuteCharge :  Float)
+    init(bId: Int, bDate: Date, bType: BillType, bTotalAmount: Float, manufacturer : String, plan : String, mobileNo : Int, internetUsage : Internet, minuteUsage : Float, internetCharge : Float, minuteCharge :  Float)
     {
         self.manufacturer = ""
         self.plan = ""
