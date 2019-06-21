@@ -13,9 +13,9 @@ class Bill : IDisplay
     var bId : Int?
     var bDate : Date?
     var bType : String
-    var bTotalAmount : Double?
+    var bTotalAmount : Float?
     
-    init(bId : Int,bDate : Date,bType : String, bTotalAmount : Double)
+    init(bId : Int,bDate : Date,bType : String, bTotalAmount : Float)
     {
         self.bId = 0
         self.bDate = bDate
